@@ -86,3 +86,33 @@ public class test{
 	}
 }
 }
+
+using System;
+					
+public class Program
+{
+	public test myTest;
+	public void Main()
+	{ 
+	
+		myTest = new test();
+		Console.WriteLine("Lets see what you got! Hmmm. " );
+		myTest.carl(4);
+		
+			
+			
+}
+}
+
+public class test{
+
+		public void carl(int value){ 
+		int sam = 1;
+			string result = (sam > value) ? "Sam is beating you!" : "You're beating Sam!";
+			Console.WriteLine(result);
+		if(value == 4){
+		 Console.WriteLine("You got 4 points!" );
+
+	}
+}
+}
