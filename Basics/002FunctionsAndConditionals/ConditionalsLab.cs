@@ -41,3 +41,24 @@ public class Operations {
 		}
 	}
 }
+
+using System;
+					
+public class Program
+{
+	public void Main()
+	{ 
+		Console.WriteLine("Lets see what you got! Hmmm. " );
+		carl(2);
+			
+	}
+	
+	public void carl(int value){ 
+		if(value == 4){
+		 Console.WriteLine("You got 4!" );
+	 }else {
+		 Console.WriteLine("Sorry, no four." );
+	}
+}
+}
+		
