@@ -61,4 +61,28 @@ public class Program
 	}
 }
 }
-		
+	
+using System;
+					
+public class Program
+{
+	public test myTest;
+	public void Main()
+	{ 
+		myTest = new test();
+		Console.WriteLine("Lets see what you got! Hmmm. " );
+		myTest.carl(2);
+			
+}
+}
+
+public class test{
+
+		public void carl(int value){ 
+		if(value == 4){
+		 Console.WriteLine("You got 4!" );
+	 }else {
+		 Console.WriteLine("Sorry, no four." );
+	}
+}
+}
