@@ -1,0 +1,26 @@
+using System;
+
+public class First
+{
+    public static void Main(string[] args)
+    {
+		int characterAge;
+		characterAge = 35;
+		bool isMale = false;
+		string characterName = "Ben";
+		
+        Console.WriteLine("Hello " + characterName + "," );
+		
+		if(isMale && characterAge > 20)
+		{
+			Console.WriteLine("you're looking kinda old sir.");
+		}else if(isMale && characterAge < 20)
+		{
+				Console.WriteLine("you bright youngster lad!");
+		}else
+		{	
+			Console.WriteLine("you've changed.");
+		}
+     
+    }    
+}
