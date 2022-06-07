@@ -73,3 +73,22 @@ namespace Kizzy
 		}
 	}
 }
+
+using System;
+					
+namespace Kizzy
+{
+	public class Program
+	{
+		public static void Main()
+		{
+			
+			Console.WriteLine("Hello! " + cube(5));
+		}
+		
+		static int cube(int num)
+		{
+			int result = num *num*num;
+			return result;
+		}
+	}
