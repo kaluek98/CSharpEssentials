@@ -68,5 +68,22 @@ public class PowerUps {
 		}
 	}
 }
+using System;
+
+namespace kizzy
+{
+					
+public class Program
+{
+	public static void Main(string[] args)
+	{
+		string[] dogs = {"Poodle", "German Sheppard", "Doxen", "French Bulldog", "Golden Retriever"};
+		foreach (string g in dogs)
+		{
+		Console.WriteLine(g);
+		}
+	}
+}
+}
 
 		
