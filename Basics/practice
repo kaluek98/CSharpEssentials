@@ -53,3 +53,23 @@ public class First
 		return result;
 	}
 }
+
+using System;
+					
+namespace Kizzy
+{
+	public class Program
+	{
+		public static void Main()
+		{
+			int index = 6;
+			do
+			{
+				Console.WriteLine(index);
+				index++;
+			} while (index <= 5);
+		
+	
+		}
+	}
+}
