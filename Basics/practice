@@ -92,3 +92,20 @@ namespace Kizzy
 			return result;
 		}
 	}
+using System;
+					
+namespace Kizzy
+{
+	public class Program
+	{
+		public static void Main()
+		{
+			string name = "John";
+			string nicName = "Angel Eyes";
+				
+			string myString = $"{name} {nicName}";
+			Console.WriteLine( myString);
+		}
+		
+	}
+	
