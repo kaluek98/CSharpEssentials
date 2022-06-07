@@ -34,3 +34,28 @@ public class Program
 	}
 }
 }
+using System;
+
+namespace kizzy
+{
+					
+public class Program
+{
+	public void Main()
+	{
+		string[] playerClasses = {"Goblin", "Goblin", "Goblin", "Dog"};
+		playerClasses[0] = "Orc";
+		
+		for (var i = 1;i< playerClasses.Length; i++)
+		
+		{
+			playerClasses[i] = "Human";
+		}
+		
+		foreach(var playerClass in playerClasses)
+		{ Console.WriteLine(playerClass);
+		}
+		
+	}
+}
+}
