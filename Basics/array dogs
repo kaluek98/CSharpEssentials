@@ -59,3 +59,33 @@ public class Program
 	}
 }
 }
+
+using System;
+
+namespace kizzy
+{
+					
+public class Program
+{
+	public static void Main()
+	{
+		item[] itemObjs = {new item(), new item(), new item()};
+		itemObjs[1].itemNam = "Stick";
+		itemObjs[2].itemNam = "Rope";
+		
+		for(var i = 1; i < itemObjs.Length;i++){
+			itemObjs[i].itemValue = 2;
+		}
+		
+		foreach(var piece in itemObjs){
+			Console.WriteLine("You have a " + piece.itemNam);
+			Console.WriteLine("worth " +  piece.itemValue + "$");
+		}
+	}
+}
+public class item
+{
+	public string itemNam = "Potion";
+	public int itemValue = 7;
+}
+}
