@@ -15,3 +15,22 @@ public class Program
 	}
 }
 }
+using System;
+
+namespace kizzy
+{
+					
+public class Program
+{
+	public void Main()
+	{
+		string[] dogs = {"Poodle", "German Sheppard", "Doxen", "French Bulldog", "Golden Retriever"};
+		Console.WriteLine(dogs.Length);
+		foreach (string g in dogs)
+		{
+		Console.WriteLine("I want a " + g + ".");
+		}
+		
+	}
+}
+}
