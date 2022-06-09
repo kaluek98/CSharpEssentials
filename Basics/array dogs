@@ -89,3 +89,51 @@ public class item
 	public int itemValue = 7;
 }
 }
+using System;
+
+namespace kizzy
+{
+					
+public class Program
+{
+	public static void Main()
+	{
+		friend[] friends = { new friend() , new friend(), new friend() , new friend() };
+		Console.WriteLine("Which friend do you want to call?");
+		friends[0].friendNam = "James";
+		friends[0].friendAv = false;
+		friends[1].friendNam = "Abby";
+		friends[1].friendAv = true;
+		friends[2].friendNam = "Blake";
+		friends[2].friendAv = true;
+		friends[3].friendNam = "Jules";
+		friends[3].friendAv = false;
+		
+		
+		
+		foreach (var i in friends)
+		{
+		Console.WriteLine( i.friendNam);
+			if (i.friendAv == true)
+		{	
+		Console.WriteLine( " is Available.");
+		} 
+		else
+			{
+				Console.WriteLine( " is Unavailable.");
+			}
+		
+		}
+		
+	}
+}
+
+public class friend
+{ 
+	public string friendNam = "Potion";
+	public bool friendAv = true;
+	
+	
+	
+}
+}
