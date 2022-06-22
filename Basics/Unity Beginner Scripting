@@ -24,3 +24,27 @@ public class VariablesAndFunctions : MonoBehaviour
         return result;
     }
 }
+
+Third Video Practice
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class BasicSyntax : MonoBehaviour
+{
+    /* If you're reading this
+    *it's too late
+    */
+    void Start()
+    {
+        Debug.log(transform.position.x);
+        
+        if (transform.positon.y <=4f)
+        {
+            Debug.Log("I'm about to fall to my death!")
+        } 
+    }
+
+}
+
