@@ -64,3 +64,27 @@ public class MyName : MonoBehaviour
 
 }
 
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class InstantiationExample : MonoBehaviour
+{
+    public GameObject myPrefab;
+    
+    // I now realize this repo is obsolete since I turn it all in from the repo containing my Unity project but just incase you follow this link;
+   
+    void Start()
+    {
+        Instantiate(myPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+        
+    }
+
+    
+    void Update()
+    {
+        
+    }
+}
+
+
